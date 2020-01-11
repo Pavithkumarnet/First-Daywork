@@ -7,9 +7,14 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/cover.css">
 <link rel="stylesheet" href="css/style.css">
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $("#human-nav-bar").load("/html/partials/navbar.html", function () {
+      $("#nav-feature").addClass("active");
+    });
+  });
+</script>
 </head>
 <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
