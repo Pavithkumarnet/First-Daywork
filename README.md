@@ -1,2 +1,1 @@
-# First-Daywork
-Coding Work
+# First-Day-Class
